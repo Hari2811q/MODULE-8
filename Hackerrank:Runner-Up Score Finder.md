@@ -20,8 +20,31 @@ To write a Python program that takes a list of scores from participants and find
 
 ## 💻 PROGRAM:
 
-ADD CODE HERE
+```
+l1=[]
+l2=[]
+for _ in range(int(input())):
+ name = input()
+ score = float(input())
+ l1.extend([name,score])
+ l2.append(l1)
+ l1=[]
+l3=[]
+l4=[]
+for i in l2:
+ l3.append(i[1])
+l3.sort()
+for i in l2:
+ if i[1]==l3[1]:
+ l4.append(i[0])
+l4.sort()
+for i in l4:
+ print(i)
+```
 
 ## OUTPUT
 
+<img width="458" height="466" alt="image" src="https://github.com/user-attachments/assets/3b54eab1-10b8-4bf3-84e0-8e64062c17d2" />
+
 ## RESULT
+Thus the program has been successfully executed
