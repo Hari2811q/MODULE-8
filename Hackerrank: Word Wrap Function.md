@@ -42,7 +42,7 @@ print(wrap(text, width))
 
 ## Sample Output
 <img width="738" height="400" alt="image" src="https://github.com/user-attachments/assets/ba1b6413-013d-4570-925d-a7a09642106d" />
-<img width="738" height="400" alt="image" src="https://github.com/user-attachments/assets/ba1b6413-013d-4570-925d-a7a09642106d" />
+
 
 ## Result
 Program is verified successfully.
